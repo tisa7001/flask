@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Dashboard Content</h2>
+        
+        <form method="POST">
+            <button type="submit" name="button_action" value="clicked">Click me</button>
+        </form>
+         
+    </div>
+</body>
+</html>
